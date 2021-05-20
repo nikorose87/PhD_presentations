@@ -1,0 +1,16 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Motivaci\IeC {\'o}n}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Estad\IeC {\'\i }sticas e impacto social}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Avances en pr\IeC {\'o}tesis}{9}{0}{1}
+\beamer@sectionintoc {2}{Estado del arte pr\IeC {\'o}tesis pasivas vs bi\IeC {\'o}nicas}{11}{0}{2}
+\beamer@sectionintoc {3}{Identificaci\IeC {\'o}n del problema}{24}{0}{3}
+\beamer@subsectionintoc {3}{1}{Estrategias de generaci\IeC {\'o}n de energ\IeC {\'\i }a}{25}{0}{3}
+\beamer@subsectionintoc {3}{2}{Problem\IeC {\'a}tica actual}{27}{0}{3}
+\beamer@subsectionintoc {3}{3}{Pregunta de investigaci\IeC {\'o}n}{31}{0}{3}
+\beamer@sectionintoc {4}{Objetivos}{33}{0}{4}
+\beamer@subsectionintoc {4}{1}{Objetivo General}{34}{0}{4}
+\beamer@subsectionintoc {4}{2}{Objetivos Espec\IeC {\'\i }ficos}{35}{0}{4}
+\beamer@sectionintoc {5}{Metodolog\IeC {\'\i }a y actividades}{36}{0}{5}
+\beamer@sectionintoc {6}{Cronograma y presupuesto}{48}{0}{6}
+\beamer@sectionintoc {7}{Bibliography}{51}{0}{7}

@@ -1,0 +1,33 @@
+\documentclass{beamer}
+\usetheme[outer/progressbar=foot]{metropolis}
+
+\makeatletter
+% change width of progressbar
+\setlength{\metropolis@progressinheadfoot@linewidth}{10pt} % <-- insert desired value here
+
+% redefine standout frame to set different background color
+\define@key{beamerframe}{standout}[true]{%
+  \booltrue{metropolis@standout}
+  \begingroup
+    \setkeys{beamerframe}{c}
+    \metroset{numbering=none}
+    \setbeamercolor{background canvas}{
+      bg=gray % <-- set color here
+      }
+    \centering
+    \usebeamercolor[fg]{palette primary}
+    \usebeamerfont{standout}
+}
+\makeatother
+
+\begin{document}
+
+  \begin{frame}{Bigger progress bar in footer}
+    Hello, world!
+  \end{frame}
+
+  \begin{frame}[standout]
+    Different background color!
+  \end{frame}
+
+\end{document}

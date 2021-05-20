@@ -1,0 +1,59 @@
+\documentclass[fleqn,12pt,a4paper]{article}
+
+\usepackage{tikz}
+\usepackage{tabularx}
+
+\begin{document}
+
+% Introduce a new counter for counting the nodes needed for circling
+\newcounter{nodecount}
+% Command for making a new node and naming it according to the nodecount counter
+\newcommand\tabnode[1]{\addtocounter{nodecount}{1} \tikz \node (\arabic{nodecount}) {#1};}
+
+% Some options common to all the nodes and paths
+\tikzstyle{every picture}+=[remember picture,baseline]
+\tikzstyle{every node}+=[inner sep=0pt,anchor=base,
+minimum width=1.8cm,align=center,text depth=.25ex,outer sep=1.5pt]
+\tikzstyle{every path}+=[thick, rounded corners]
+
+\begin{table}[ht]
+  \begin{minipage}[b]{1 \linewidth}\centering
+   \begin{tabular}{|c|c|c|c|c|}
+    \hline
+      Tri Sankhya & Vihbakti    & Ekavachana & Dvivachana & Bahuvachana \\
+   \hline
+% Turn the cells needed for defining the circling paths into nodes with our custom command
+      Pra Trik  &Prathama  & \tabnode{Su (s)} & \tabnode{Au} & \tabnode{Jas (as)} \\
+      Dvi Trik & Dvitiya & \tabnode{Am} & \tabnode{Aut (Au)} & \tabnode{Shas(as)} \\
+      Tri Trik  & Trutiya  & \tabnode{Ta (A)} & \tabnode{Bhyam} & Bhis \\ 
+      Cha Trik  & Chaturthi  & Ne (E) & Bhyam & Bhyas \\
+      Pan   Trik & Panchami  & Nasi (as)& Bhyam & Bhyas  \\
+      Shas Trik & Shashthi  & Nas (as)& Os & Aam   \\
+      Sap Trik & Saptami & \tabnode{Ni (ee)} & Os & \tabnode{Sup(su)}  \\
+   \hline
+     \end{tabular}
+      \caption{Subanta Pratyaya}
+   \end{minipage}
+
+
+\begin{tikzpicture}[overlay]
+% Define the circle paths
+\draw [blue](1.north west) -- (3.north east) --
+(3.south east) -- (3.south west) -- (5.south east) -- (4.south west) -- cycle;
+\draw [red] (6.north west) -- (6.north east) --
+(10.south east) -- (9.south west) -- (7.north west) -- (8.north east) -- cycle;
+\draw [orange] (2.north west) -- (3.north east) -- (6.south east) --
+(5.south west) -- cycle;
+
+% Labels
+\node [right=2cm,above=2cm,minimum width=0pt] at (2) (A) {A};
+\draw [<-,out=5,in=180] (2) to (A);
+\node [right=2.2cm,above=1cm,minimum width=0pt] at (3) (B) {B};
+\draw [<-,out=0,in=180] (3) to (B);
+\node [right=1.2cm,below=1cm,minimum width=0pt] at (10) (C) {C};
+\draw [<-,out=350,in=90] (10) to (C);
+
+\end{tikzpicture}
+
+\end{table}
+\end{document} 

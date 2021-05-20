@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Feathertheme.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: Proposal.bib.bib
+Database file #2: patents.bib.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in KrogerKnut2015
+Warning--missing institution in Ramirez2014
+Warning--empty journal in Weber2014
+Warning--empty journal in Au2009
+Warning--missing nationality in herr2011controlling
+Warning--missing nationality in herr2014powered
+Warning--missing nationality in han2012controlling
+Warning--missing nationality in han2014controlling
+
+Done.
+You've used 53 entries,
+            4087 wiz_defined-function locations,
+            1186 strings with 20014 characters,
+and the built_in function-call counts, 41401 in all, are:
+= -- 3409
+> -- 1050
+< -- 405
++ -- 539
+- -- 174
+* -- 2048
+:= -- 6456
+add.period$ -- 109
+call.type$ -- 53
+change.case$ -- 51
+chr.to.int$ -- 942
+cite$ -- 61
+duplicate$ -- 2850
+empty$ -- 2936
+format.name$ -- 214
+if$ -- 9491
+int.to.chr$ -- 0
+int.to.str$ -- 53
+missing$ -- 507
+newline$ -- 246
+num.names$ -- 53
+pop$ -- 1133
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 3151
+stack$ -- 0
+substring$ -- 1881
+swap$ -- 2577
+text.length$ -- 91
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 53
+warning$ -- 8
+while$ -- 172
+width$ -- 55
+write$ -- 625
+(There were 8 warnings)

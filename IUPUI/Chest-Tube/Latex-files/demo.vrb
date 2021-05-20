@@ -1,0 +1,27 @@
+\frametitle{Design of experiments ()}
+
+\begin{table}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\cline{3-8}
+\multicolumn{1}{c}{} &  & \multicolumn{6}{c|}{Top part}\tabularnewline
+\cline{3-8}
+\multicolumn{1}{c}{} &  & ABS & PC/ABS & Nylon & PC & PLA & SLA\tabularnewline
+\hline
+\multirow{6}{*}{\rotatebox[origin=c]{90}{Bottom part}} & ABS & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \tabularnewline
+\cline{2-8}
+ & PC/ABS & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \tabularnewline
+\cline{2-8}
+ & Nylon &  &  &  &  &  & \tabularnewline
+\cline{2-8}
+ & PC &  &  &  &  &  & \tabularnewline
+\cline{2-8}
+ & PLA &  &  &  &  &  & \tabularnewline
+\cline{2-8}
+ & SLA &  &  &  &  &  & \tabularnewline
+\hline
+\end{tabular}
+
+\caption{Design of Experiments for 3D printing.}
+
+\end{table}
+

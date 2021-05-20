@@ -1,0 +1,43 @@
+\frametitle{Schedule}
+
+\begin{ganttchart}[
+time slot format=isodate-yearmonth,
+x unit=1.0cm,
+y unit title=0.7cm,
+y unit chart=0.8cm,
+vgrid,
+time slot unit=month,
+%compress calendar,
+title/.append style={draw=none, fill=IUcolor},
+title label font=\footnotesize\sffamily\bfseries\color{white},
+title label node/.append style={below=-1.6ex},
+title left shift=.05,
+title right shift=-.05,
+title height=1,
+bar/.append style={draw=none, fill=green!75},
+bar height=.6,
+bar label font=\normalsize\color{black!50},
+group right shift=0,
+group top shift=.6,
+group height=.3,
+group peaks height=.2,
+bar incomplete/.append style={fill=IUlight},
+]{2018-07}{2018-12}
+%\gantttitlecalendar{year}{months} \\
+\gantttitle[]{2018}{5} \\                 % title
+	\gantttitle{Aug}{1}
+    \gantttitle{Sep}{1}
+    \gantttitle{Oct}{1}
+    \gantttitle{Nov}{1}
+    \gantttitle{Dic}{1}\\
+\ganttset{progress label text={}, link/.style={black, -to}}
+\ganttgroup{Pre-manufacturing Line}{2018-07}{2018-12}\\
+\ganttbar[progress=10, name=T1A]{3D printing experiment.}{2018-07}{2018-10} \\
+\ganttbar[progress=0, name=T1A]{Testing 3D printing}{2018-09}{2018-10} \\
+\ganttbar[progress=0, name=T1A]{Injection Molding}{2018-09}{2018-11} \\
+\ganttbar[progress=0, name=T1A]{Testing IM prototypes}{2018-10}{2018-12} \\
+\ganttbar[progress=0, name=T1A]{Preparing one journal paper.}{2018-08}{2018-12} \\
+\ganttset{link/.style={black}}
+%\ganttlink[link mid=.4]{pp}{T1A}
+%\ganttlink[link mid=.159]{pp}{T2A}
+\end{ganttchart}
